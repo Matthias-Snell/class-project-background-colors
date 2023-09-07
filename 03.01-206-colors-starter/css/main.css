@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #ca55be;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #9f55ca;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #7655ca;
 }
 
 
@@ -60,48 +60,56 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #d5e5d5;
+    background-color: #a3b4c5;
   }
 
   #column-1 {
-    background-color: #d5e5f5;
+    background-color: #5e86af;
   }
 
   #column-2 {
-    background-color: #d5e5f5;
+    background-color: #5e9597;
   }
 
   #column-3 {
-    background-color: #d5e5f5;
+    background-color: #5eab7b;
+    width: 100%;
   }
 
   footer {
-    background-color: #d5e5d5;
+    background-color: #a3b4c5;
   }
   
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #d5c5d5;
+    background-color: #e1e2e3;
   }
 
   #column-1 {
-    background-color: #d5c5b5;
+    background-color: #fffc5f;
   }
 
   #column-2 {
-    background-color: #d5c5b5;
+    background-color: #ffc45f;
   }
 
   #column-3 {
-    background-color: #d5c5b5;
+    background-color: #ff7f5f;
+    width: 33.3%;
   }
 
   footer {
-    background-color: #d5c5d5;
+    background-color: #e1e2e3;
   }
    
+  .col-3 {
+    width: 33.3%;
+  }
 }
